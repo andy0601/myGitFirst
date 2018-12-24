@@ -1,8 +1,5 @@
 ﻿振华你个屌丝，哈哈
 我又来了
 学习git merge
-<<<<<<< HEAD
 学习个锤子git
-=======
 学习git fetch 呀
->>>>>>> master1
