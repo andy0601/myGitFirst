@@ -34,4 +34,15 @@
 关羽|打|二哥
 张飞|骂|三弟
 
+```flow
+st=>start: 开始
+op=>operation: My Operation
+cond=>condition: Yes or No?
+e=>end
+st->op->cond
+cond(yes)->e
+cond(no)->op
+&```
+
+
 
