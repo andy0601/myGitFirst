@@ -1,11 +1,14 @@
 ## 迭代五接口说明文档
 
-
-
+![Alt text](https://ss2.bdstatic.com/8_V1bjqh_Q23odCf/pacific/1713251625.png)
+<314975147@qq.com>
+[wzh](https://ss2.bdstatic.com/8_V1bjqh_Q23odCf/pacific/1713251625.png)
 ### 1.数据库检查接口
 
 ##### 1）查询接口
-
+---
+***
+___
 接口地址：/dbc?group_id=0 &_page=1&_limit=20
 
 请求方法：GET
