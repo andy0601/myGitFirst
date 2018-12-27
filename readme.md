@@ -42,7 +42,15 @@ e=>end
 st->op->cond
 cond(yes)->e
 cond(no)->op
-&```
+&```  
+
+
+(```)
+    function fun(){
+         echo "这是一句非常牛逼的代码";
+    }
+    fun();
+(```)  
 
 
 
