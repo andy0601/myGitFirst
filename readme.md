@@ -9,6 +9,23 @@
  * 你好  
  * 安徽的
  
+ **src/app/guard/login.guard.ts**
+```typescript
+import {CanActivate} from '@angular/router';
+
+export class LoginGuard implements CanActivate {
+  canActivate () {
+    const loggedIn: boolean = Math.random() < 0.5;
+
+    if (!loggedIn) {
+      console.log('用户未登录');
+    }
+
+    return loggedIn;
+  }
+}
+```
+ 
 - [x] 选项一
 - [ ] 选项二  
 - [ ]  [选项3]
