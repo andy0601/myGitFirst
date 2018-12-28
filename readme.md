@@ -9,6 +9,14 @@
  * 你好  
  * 安徽的  
  
+ ```javascript  
+var num = 0;  
+for (var i = 0; i < 5; i++) {  
+    num+=i;  
+}  
+console.log(num);  
+```
+ 
 姓名|性别|年龄|身高|学历
 -|-|-|-|-
 王中华|男|33|175|大专
