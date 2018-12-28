@@ -8,13 +8,13 @@
 * 列表内容  
  * 你好  
  * 安徽的  
- 我是文字……
-
-    <div>   
-        <div></div>
-        <div></div>
-        <div></div>
-    </div>
+```
+<div>   
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+```
  
  ```javascript  
 var num = 0;  
