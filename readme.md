@@ -5,6 +5,28 @@
 [简书](http://jianshu.com)  
 <a href="http://jianshu.com" target="_blank">超链接名</a>  
 
+```flow                     // 流程
+st=>start: 开始|past:> http://www.baidu.com // 开始
+e=>end: 结束              // 结束
+c1=>condition: 条件1:>http://www.baidu.com[_parent]   // 判断条件
+c2=>condition: 条件2      // 判断条件
+c3=>condition: 条件3      // 判断条件
+io=>inputoutput: 输出     // 输出
+//----------------以上为定义参数-------------------------
+
+//----------------以下为连接参数-------------------------
+// 开始->判断条件1为no->判断条件2为no->判断条件3为no->输出->结束
+st->c1(yes,right)->c2(yes,right)->c3(yes,right)->io->e
+c1(no)->e                   // 条件1不满足->结束
+c2(no)->e                   // 条件2不满足->结束
+c3(no)->e                   // 条件3不满足->结束
+```
+
+作者：欧薇娅
+链接：https://www.jianshu.com/p/b03a8d7b1719
+來源：简书
+简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。
+
 * 列表内容  
  * 你好  
  * 安徽的
