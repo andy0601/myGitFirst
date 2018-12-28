@@ -82,8 +82,13 @@ console.log(num);
 关羽|打|二哥
 张飞|骂|三弟  
 
-|左对齐标题|右对齐标题|居中对齐标题|
-|:-|-:|:-:|
-|短文本|中等文本|稍微长一点的文本|
-|稍微长一点的文本|短文本|中等文|
+```flow
+st=>start: 开始
+op=>operation: My Operation
+cond=>condition: Yes or No?
+e=>end
+st->op->cond
+cond(yes)->e
+cond(no)->op
+&```
 
