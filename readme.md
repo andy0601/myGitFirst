@@ -5,7 +5,7 @@
 [简书](http://jianshu.com)  
 <a href="http://jianshu.com" target="_blank">超链接名</a>  
 
-```flow                     // 流程
+```flow
 st=>start: 开始|past:> http://www.baidu.com // 开始
 e=>end: 结束              // 结束
 c1=>condition: 条件1:>http://www.baidu.com[_parent]   // 判断条件
