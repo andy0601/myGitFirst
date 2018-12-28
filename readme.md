@@ -10,7 +10,7 @@
  * 安徽的
  
  **src/app/guard/login.guard.ts**
-```typejava
+```javascript
 import {CanActivate} from '@angular/router';
 
 export class LoginGuard implements CanActivate {
